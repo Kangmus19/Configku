@@ -1,0 +1,40 @@
+proxies:
+  - name: id5tr.jagoan.vip
+    server: midtrans.com
+    port: 443
+    type: trojan
+    password: vvip-kangmus19
+    skip-cert-verify: true
+    sni: id5tr.jagoan.vip
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id5tr.jagoan.vip
+    udp: true
+  - name: midtrans.com
+    server: midtrans.com
+    port: 443
+    type: trojan
+    password: 20d02200-445d-11ed-b838-225401db9d57
+    skip-cert-verify: true
+    sni: id-ikd.tjvpn.org
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: id-ikd.tjvpn.org
+    udp: true
+  - name: midtrans.com 2
+    server: midtrans.com
+    port: 443
+    type: trojan
+    password: 7d2d9640-445d-11ed-a50a-1239d0255272
+    skip-cert-verify: true
+    sni: trojan1.udpgw.com
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: trojan1.udpgw.com
+    udp: true
